@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/modules.order := {   cat drivers/net/wireless/microchip/modules.order;   cat drivers/net/wireless/rockchip_wlan/modules.order; :; } | awk '!x[$$0]++' - > drivers/net/wireless/modules.order

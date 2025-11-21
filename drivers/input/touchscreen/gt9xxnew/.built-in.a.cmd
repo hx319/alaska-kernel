@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/gt9xxnew/built-in.a := echo >/dev/null; rm -f drivers/input/touchscreen/gt9xxnew/built-in.a; llvm-ar cDPrST drivers/input/touchscreen/gt9xxnew/built-in.a drivers/input/touchscreen/gt9xxnew/gt9xx.o drivers/input/touchscreen/gt9xxnew/gt9xx_update.o drivers/input/touchscreen/gt9xxnew/goodix_tool.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/buffer/built-in.a := echo >/dev/null; rm -f drivers/iio/buffer/built-in.a; llvm-ar cDPrST drivers/iio/buffer/built-in.a drivers/iio/buffer/industrialio-buffer-cb.o drivers/iio/buffer/industrialio-triggered-buffer.o drivers/iio/buffer/kfifo_buf.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_main.ko := ld.lld -r -EL  -maarch64elf -z norelro -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/gspca/gspca_main.ko drivers/media/usb/gspca/gspca_main.o drivers/media/usb/gspca/gspca_main.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/media/usb/gspca/gspca_main.ko

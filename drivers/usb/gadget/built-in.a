@@ -1,0 +1,55 @@
+!<thin>
+//                                              472       `
+usbstring.o/
+config.o/
+epautoconf.o/
+composite.o/
+functions.o/
+configfs.o/
+u_f.o/
+udc/core.o/
+udc/trace.o/
+function/f_acm.o/
+function/u_serial.o/
+function/u_ether.o/
+function/f_ncm.o/
+function/f_rndis.o/
+function/rndis.o/
+function/f_mass_storage.o/
+function/storage_common.o/
+function/f_fs.o/
+function/f_uvc.o/
+function/uvc_queue.o/
+function/uvc_v4l2.o/
+function/uvc_video.o/
+function/uvc_configfs.o/
+function/f_midi.o/
+function/f_accessory.o/
+function/f_audio_source.o/
+
+/0              0           0     0     644     9968      `
+/13             0           0     0     644     234632    `
+/23             0           0     0     644     151536    `
+/37             0           0     0     644     326264    `
+/50             0           0     0     644     165288    `
+/63             0           0     0     644     280088    `
+/75             0           0     0     644     13080     `
+/82             0           0     0     644     311240    `
+/94             0           0     0     644     279912    `
+/107            0           0     0     644     184384    `
+/125            0           0     0     644     230912    `
+/146            0           0     0     644     366456    `
+/166            0           0     0     644     355448    `
+/184            0           0     0     644     340152    `
+/204            0           0     0     644     346104    `
+/222            0           0     0     644     349616    `
+/249            0           0     0     644     217600    `
+/276            0           0     0     644     399336    `
+/293            0           0     0     644     259656    `
+/311            0           0     0     644     223792    `
+/333            0           0     0     644     249672    `
+/354            0           0     0     644     222800    `
+/376            0           0     0     644     346128    `
+/401            0           0     0     644     233288    `
+/420            0           0     0     644     299160    `
+/444            0           0     0     644     216448    `

@@ -1,0 +1,15 @@
+!<thin>
+//                                              184       `
+st_lsm6dsr/st_lsm6dsr_core.o/
+st_lsm6dsr/st_lsm6dsr_buffer.o/
+st_lsm6dsr/st_lsm6dsr_shub.o/
+st_lsm6dsr/st_lsm6dsr_embfunc.o/
+st_lsm6dsr/st_lsm6dsr_i2c.o/
+st_lsm6dsr/st_lsm6dsr_spi.o/
+
+/0              0           0     0     644     252416    `
+/30             0           0     0     644     202240    `
+/62             0           0     0     644     177848    `
+/92             0           0     0     644     161864    `
+/125            0           0     0     644     148056    `
+/154            0           0     0     644     167400    `

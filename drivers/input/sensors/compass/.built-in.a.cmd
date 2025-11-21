@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/compass/built-in.a := echo >/dev/null; rm -f drivers/input/sensors/compass/built-in.a; llvm-ar cDPrST drivers/input/sensors/compass/built-in.a drivers/input/sensors/compass/ak8975.o drivers/input/sensors/compass/ak8963.o

@@ -1,0 +1,1 @@
+cmd_drivers/staging/android/built-in.a := echo >/dev/null; rm -f drivers/staging/android/built-in.a; llvm-ar cDPrST drivers/staging/android/built-in.a drivers/staging/android/ion/built-in.a drivers/staging/android/ashmem.o

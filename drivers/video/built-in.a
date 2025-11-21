@@ -1,0 +1,165 @@
+!<thin>
+//                                              1922      `
+hdmi.o/
+backlight/backlight.o/
+backlight/pwm_bl.o/
+rockchip/rga3/rga_drv.o/
+rockchip/rga3/rga_common.o/
+rockchip/rga3/rga3_reg_info.o/
+rockchip/rga3/rga_iommu.o/
+rockchip/rga3/rga_dma_buf.o/
+rockchip/rga3/rga_job.o/
+rockchip/rga3/rga_hw_config.o/
+rockchip/rga3/rga2_reg_info.o/
+rockchip/rga3/rga_policy.o/
+rockchip/rga3/rga_mm.o/
+rockchip/rga3/rga_fence.o/
+rockchip/rga3/rga_debugger.o/
+rockchip/iep/hw_iep_reg.o/
+rockchip/iep/iep_drv.o/
+rockchip/iep/iep_iommu_ops.o/
+rockchip/iep/iep_iommu_drm.o/
+rockchip/mpp/mpp_service.o/
+rockchip/mpp/mpp_common.o/
+rockchip/mpp/mpp_iommu.o/
+rockchip/mpp/mpp_rkvdec.o/
+rockchip/mpp/mpp_rkvdec2.o/
+rockchip/mpp/mpp_rkvdec2_link.o/
+rockchip/mpp/mpp_rkvenc.o/
+rockchip/mpp/mpp_rkvenc2.o/
+rockchip/mpp/mpp_vdpu1.o/
+rockchip/mpp/mpp_vepu1.o/
+rockchip/mpp/mpp_vdpu2.o/
+rockchip/mpp/mpp_vepu2.o/
+rockchip/mpp/mpp_iep2.o/
+rockchip/mpp/mpp_jpgdec.o/
+rockchip/mpp/mpp_av1dec.o/
+rockchip/mpp/mpp_iommu_av1d.o/
+rockchip/mpp/mpp_vdpp.o/
+rockchip/mpp/hack/mpp_hack_px30.o/
+fbdev/core/fb_cmdline.o/
+fbdev/core/fb_notify.o/
+fbdev/core/fbmem.o/
+fbdev/core/fbmon.o/
+fbdev/core/fbcmap.o/
+fbdev/core/fbsysfs.o/
+fbdev/core/modedb.o/
+fbdev/core/fbcvt.o/
+fbdev/core/fb_defio.o/
+fbdev/core/cfbfillrect.o/
+fbdev/core/cfbcopyarea.o/
+fbdev/core/cfbimgblt.o/
+fbdev/core/sysfillrect.o/
+fbdev/core/syscopyarea.o/
+fbdev/core/sysimgblt.o/
+fbdev/core/fb_sys_fops.o/
+lt9211/LontiumDrv.o/
+lt9211/LT9211C_Main.o/
+lt9211/OcmI2cMaster.o/
+lt9211/DrvDcsCmd.o/
+lt9211/DrvCsc.o/
+lt9211/ModSystem.o/
+lt9211/DrvSystem.o/
+lt9211/ModPattern.o/
+lt9211/ModMipiRpt.o/
+lt9211/DrvMipiRpt.o/
+lt9211/ModMipiLs.o/
+lt9211/DrvMipiLs.o/
+lt9211/ModMipiRx.o/
+lt9211/DrvMipiRx.o/
+lt9211/ModMipiTx.o/
+lt9211/DrvMipiTx.o/
+lt9211/ModLvdsRx.o/
+lt9211/DrvLvdsRx.o/
+lt9211/ModLvdsTx.o/
+lt9211/DrvLvdsTx.o/
+lt9211/ModTtlRx.o/
+lt9211/DrvTtlRx.o/
+lt9211/ModTtlTx.o/
+lt9211/DrvTtlTx.o/
+display_timing.o/
+videomode.o/
+of_display_timing.o/
+of_videomode.o/
+
+/0              0           0     0     644     168808    `
+/8              0           0     0     644     209616    `
+/31             0           0     0     644     253376    `
+/51             0           0     0     644     371616    `
+/76             0           0     0     644     34248     `
+/104            0           0     0     644     331968    `
+/135            0           0     0     644     287048    `
+/162            0           0     0     644     290408    `
+/191            0           0     0     644     397616    `
+/216            0           0     0     644     11592     `
+/247            0           0     0     644     359312    `
+/278            0           0     0     644     275960    `
+/306            0           0     0     644     389832    `
+/330            0           0     0     644     256144    `
+/357            0           0     0     644     326472    `
+/387            0           0     0     644     151264    `
+/414            0           0     0     644     264952    `
+/438            0           0     0     644     85392     `
+/468            0           0     0     644     170952    `
+/498            0           0     0     644     205320    `
+/526            0           0     0     644     449720    `
+/553            0           0     0     644     193656    `
+/579            0           0     0     644     366280    `
+/606            0           0     0     644     405704    `
+/634            0           0     0     644     497512    `
+/667            0           0     0     644     356064    `
+/694            0           0     0     644     561376    `
+/722            0           0     0     644     241960    `
+/748            0           0     0     644     240280    `
+/774            0           0     0     644     237344    `
+/800            0           0     0     644     265480    `
+/826            0           0     0     644     274336    `
+/851            0           0     0     644     227592    `
+/878            0           0     0     644     260216    `
+/905            0           0     0     644     211712    `
+/936            0           0     0     644     240096    `
+/961            0           0     0     644     164544    `
+/996            0           0     0     644     11688     `
+/1021           0           0     0     644     12616     `
+/1045           0           0     0     644     390160    `
+/1065           0           0     0     644     157856    `
+/1085           0           0     0     644     193928    `
+/1106           0           0     0     644     181752    `
+/1128           0           0     0     644     189608    `
+/1149           0           0     0     644     19888     `
+/1169           0           0     0     644     240016    `
+/1192           0           0     0     644     171048    `
+/1218           0           0     0     644     174680    `
+/1244           0           0     0     644     160928    `
+/1268           0           0     0     644     162640    `
+/1294           0           0     0     644     159904    `
+/1320           0           0     0     644     159136    `
+/1344           0           0     0     644     173592    `
+/1370           0           0     0     644     199656    `
+/1391           0           0     0     644     9528      `
+/1414           0           0     0     644     14608     `
+/1437           0           0     0     644     824       `
+/1457           0           0     0     644     3272      `
+/1474           0           0     0     644     11568     `
+/1494           0           0     0     644     25904     `
+/1514           0           0     0     644     824       `
+/1535           0           0     0     644     824       `
+/1556           0           0     0     644     824       `
+/1577           0           0     0     644     824       `
+/1597           0           0     0     644     824       `
+/1617           0           0     0     644     824       `
+/1637           0           0     0     644     824       `
+/1657           0           0     0     644     824       `
+/1677           0           0     0     644     824       `
+/1697           0           0     0     644     10232     `
+/1717           0           0     0     644     21264     `
+/1737           0           0     0     644     824       `
+/1757           0           0     0     644     824       `
+/1777           0           0     0     644     824       `
+/1796           0           0     0     644     824       `
+/1815           0           0     0     644     8896      `
+/1834           0           0     0     644     14504     `
+/1853           0           0     0     644     8416      `
+/1871           0           0     0     644     10016     `
+/1884           0           0     0     644     80256     `
+/1905           0           0     0     644     65304     `

@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/psensor/built-in.a := echo >/dev/null; rm -f drivers/input/sensors/psensor/built-in.a; llvm-ar cDPrST drivers/input/sensors/psensor/built-in.a drivers/input/sensors/psensor/ps_stk3410.o drivers/input/sensors/psensor/ps_ucs14620.o

@@ -1,0 +1,8 @@
+!<thin>
+//                                              54        `
+gpio-poweroff.o/
+reboot-mode.o/
+syscon-reboot-mode.o/
+/0              0           0     0     644     144480    `
+/17             0           0     0     644     155048    `
+/32             0           0     0     644     143952    `

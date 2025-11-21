@@ -1,0 +1,23 @@
+!<thin>
+//                                              202       `
+led-core.o/
+led-class.o/
+led-class-flash.o/
+led-triggers.o/
+leds-gpio.o/
+leds-rgb13h.o/
+trigger/ledtrig-timer.o/
+trigger/ledtrig-heartbeat.o/
+trigger/ledtrig-backlight.o/
+trigger/ledtrig-default-on.o/
+
+/0              0           0     0     644     201336    `
+/12             0           0     0     644     175048    `
+/25             0           0     0     644     171184    `
+/44             0           0     0     644     169344    `
+/60             0           0     0     644     166536    `
+/73             0           0     0     644     248136    `
+/88             0           0     0     644     142696    `
+/113            0           0     0     644     152624    `
+/142            0           0     0     644     163656    `
+/171            0           0     0     644     135344    `

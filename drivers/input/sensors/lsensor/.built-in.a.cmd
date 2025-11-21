@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/lsensor/built-in.a := echo >/dev/null; rm -f drivers/input/sensors/lsensor/built-in.a; llvm-ar cDPrST drivers/input/sensors/lsensor/built-in.a drivers/input/sensors/lsensor/cm3217.o drivers/input/sensors/lsensor/cm3218.o drivers/input/sensors/lsensor/ls_ucs14620.o drivers/input/sensors/lsensor/ls_stk3410.o

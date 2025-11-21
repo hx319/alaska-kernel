@@ -1,0 +1,71 @@
+!<thin>
+//                                              640       `
+rga3/rga_drv.o/
+rga3/rga_common.o/
+rga3/rga3_reg_info.o/
+rga3/rga_iommu.o/
+rga3/rga_dma_buf.o/
+rga3/rga_job.o/
+rga3/rga_hw_config.o/
+rga3/rga2_reg_info.o/
+rga3/rga_policy.o/
+rga3/rga_mm.o/
+rga3/rga_fence.o/
+rga3/rga_debugger.o/
+iep/hw_iep_reg.o/
+iep/iep_drv.o/
+iep/iep_iommu_ops.o/
+iep/iep_iommu_drm.o/
+mpp/mpp_service.o/
+mpp/mpp_common.o/
+mpp/mpp_iommu.o/
+mpp/mpp_rkvdec.o/
+mpp/mpp_rkvdec2.o/
+mpp/mpp_rkvdec2_link.o/
+mpp/mpp_rkvenc.o/
+mpp/mpp_rkvenc2.o/
+mpp/mpp_vdpu1.o/
+mpp/mpp_vepu1.o/
+mpp/mpp_vdpu2.o/
+mpp/mpp_vepu2.o/
+mpp/mpp_iep2.o/
+mpp/mpp_jpgdec.o/
+mpp/mpp_av1dec.o/
+mpp/mpp_iommu_av1d.o/
+mpp/mpp_vdpp.o/
+mpp/hack/mpp_hack_px30.o/
+
+/0              0           0     0     644     371616    `
+/16             0           0     0     644     34248     `
+/35             0           0     0     644     331968    `
+/57             0           0     0     644     287048    `
+/75             0           0     0     644     290408    `
+/95             0           0     0     644     397616    `
+/111            0           0     0     644     11592     `
+/133            0           0     0     644     359312    `
+/155            0           0     0     644     275960    `
+/174            0           0     0     644     389832    `
+/189            0           0     0     644     256144    `
+/207            0           0     0     644     326472    `
+/228            0           0     0     644     151264    `
+/246            0           0     0     644     264952    `
+/261            0           0     0     644     85392     `
+/282            0           0     0     644     170952    `
+/303            0           0     0     644     205320    `
+/322            0           0     0     644     449720    `
+/340            0           0     0     644     193656    `
+/357            0           0     0     644     366280    `
+/375            0           0     0     644     405704    `
+/394            0           0     0     644     497512    `
+/418            0           0     0     644     356064    `
+/436            0           0     0     644     561376    `
+/455            0           0     0     644     241960    `
+/472            0           0     0     644     240280    `
+/489            0           0     0     644     237344    `
+/506            0           0     0     644     265480    `
+/523            0           0     0     644     274336    `
+/539            0           0     0     644     227592    `
+/557            0           0     0     644     260216    `
+/575            0           0     0     644     211712    `
+/597            0           0     0     644     240096    `
+/613            0           0     0     644     164544    `

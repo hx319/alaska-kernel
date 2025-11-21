@@ -1,0 +1,1 @@
+cmd_drivers/soc/rockchip/minidump/built-in.a := echo >/dev/null; rm -f drivers/soc/rockchip/minidump/built-in.a; llvm-ar cDPrST drivers/soc/rockchip/minidump/built-in.a drivers/soc/rockchip/minidump/rk_minidump.o drivers/soc/rockchip/minidump/minidump_log.o drivers/soc/rockchip/minidump/minidump_memory.o drivers/soc/rockchip/minidump/rk_minidump_asm.o

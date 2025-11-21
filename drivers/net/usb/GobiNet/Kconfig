@@ -1,0 +1,4 @@
+config NET_GOBINET
+	tristate "GOBINET Driver support"
+	depends on USB_USBNET
+	default n

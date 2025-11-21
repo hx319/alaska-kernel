@@ -1,0 +1,29 @@
+!<thin>
+//                                              296       `
+of_touchscreen.o/
+atmel_mxt_ts.o/
+gt9xxnew/gt9xx.o/
+gt9xxnew/gt9xx_update.o/
+gt9xxnew/goodix_tool.o/
+ilitek/ilitek_def.o/
+ilitek/ilitek_main.o/
+ilitek/ilitek_platform_init.o/
+ilitek/ilitek_update.o/
+ilitek/ilitek_tool.o/
+ilitek/ilitek_protocol.o/
+ilitek/ilitek_crypto.o/
+ilitek/ilitek_report.o/
+
+/0              0           0     0     644     155760    `
+/18             0           0     0     644     385072    `
+/34             0           0     0     644     417600    `
+/52             0           0     0     644     314616    `
+/77             0           0     0     644     265128    `
+/101            0           0     0     644     16576     `
+/122            0           0     0     644     576608    `
+/144            0           0     0     644     370928    `
+/175            0           0     0     644     153600    `
+/199            0           0     0     644     552352    `
+/221            0           0     0     644     398624    `
+/247            0           0     0     644     25424     `
+/271            0           0     0     644     38080     `

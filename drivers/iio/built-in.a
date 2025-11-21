@@ -1,0 +1,37 @@
+!<thin>
+//                                              458       `
+industrialio-core.o/
+industrialio-event.o/
+inkern.o/
+industrialio-buffer.o/
+industrialio-trigger.o/
+adc/rockchip_saradc.o/
+buffer/industrialio-buffer-cb.o/
+buffer/industrialio-triggered-buffer.o/
+buffer/kfifo_buf.o/
+imu/st_lsm6dsr/st_lsm6dsr_core.o/
+imu/st_lsm6dsr/st_lsm6dsr_buffer.o/
+imu/st_lsm6dsr/st_lsm6dsr_shub.o/
+imu/st_lsm6dsr/st_lsm6dsr_embfunc.o/
+imu/st_lsm6dsr/st_lsm6dsr_i2c.o/
+imu/st_lsm6dsr/st_lsm6dsr_spi.o/
+light/ucs12cm0.o/
+light/vl6180.o/
+
+/0              0           0     0     644     283616    `
+/21             0           0     0     644     181520    `
+/43             0           0     0     644     161248    `
+/53             0           0     0     644     218168    `
+/76             0           0     0     644     211888    `
+/100            0           0     0     644     258880    `
+/123            0           0     0     644     161952    `
+/156            0           0     0     644     151688    `
+/196            0           0     0     644     164280    `
+/216            0           0     0     644     252416    `
+/250            0           0     0     644     202240    `
+/286            0           0     0     644     177848    `
+/320            0           0     0     644     161864    `
+/357            0           0     0     644     148056    `
+/390            0           0     0     644     167400    `
+/423            0           0     0     644     203936    `
+/441            0           0     0     644     215024    `

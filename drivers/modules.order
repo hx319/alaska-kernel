@@ -1,0 +1,5 @@
+drivers/net/phy/realtek.ko
+drivers/net/ethernet/realtek/r8168/r8168.ko
+drivers/net/wireless/rockchip_wlan/rkwifi/bcmdhd/dhd_static_buf.ko
+drivers/net/wireless/rockchip_wlan/rkwifi/bcmdhd/bcmdhd.ko
+drivers/media/usb/gspca/gspca_main.ko

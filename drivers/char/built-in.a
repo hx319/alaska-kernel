@@ -1,0 +1,19 @@
+!<thin>
+//                                              144       `
+mem.o/
+random.o/
+misc.o/
+hw_random/core.o/
+hw_random/cavium-rng.o/
+hw_random/cavium-rng-vf.o/
+hw_random/optee-rng.o/
+hw_random/rockchip-rng.o/
+
+/0              0           0     0     644     241536    `
+/7              0           0     0     644     348728    `
+/17             0           0     0     644     162016    `
+/25             0           0     0     644     209480    `
+/43             0           0     0     644     151392    `
+/67             0           0     0     644     160040    `
+/94             0           0     0     644     148544    `
+/117            0           0     0     644     173168    `

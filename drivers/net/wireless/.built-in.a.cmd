@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/built-in.a := echo >/dev/null; rm -f drivers/net/wireless/built-in.a; llvm-ar cDPrST drivers/net/wireless/built-in.a drivers/net/wireless/microchip/built-in.a drivers/net/wireless/rockchip_wlan/built-in.a

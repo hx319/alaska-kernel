@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/modules.order := {   cat drivers/input/touchscreen/gt9xxnew/modules.order;   cat drivers/input/touchscreen/ilitek/modules.order; :; } | awk '!x[$$0]++' - > drivers/input/touchscreen/modules.order

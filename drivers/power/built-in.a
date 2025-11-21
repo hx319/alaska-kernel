@@ -1,0 +1,45 @@
+!<thin>
+//                                              544       `
+reset/gpio-poweroff.o/
+reset/reboot-mode.o/
+reset/syscon-reboot-mode.o/
+supply/power_supply_core.o/
+supply/power_supply_sysfs.o/
+supply/power_supply_leds.o/
+supply/power_supply_hwmon.o/
+supply/test_power.o/
+supply/cw2015_battery.o/
+supply/cw2017_battery.o/
+supply/cw221x_battery.o/
+supply/rockchip_charger_manager.o/
+supply/bq25700_charger.o/
+supply/bq25890_charger.o/
+supply/sc8551_charger.o/
+supply/sc89890_charger.o/
+supply/rk817_battery.o/
+supply/rk817_charger.o/
+supply/rk818_battery.o/
+supply/rk818_charger.o/
+supply/sgm41542_charger.o/
+
+/0              0           0     0     644     144480    `
+/23             0           0     0     644     155048    `
+/44             0           0     0     644     143952    `
+/72             0           0     0     644     277040    `
+/100            0           0     0     644     118568    `
+/129            0           0     0     644     91800     `
+/157            0           0     0     644     107832    `
+/186            0           0     0     644     192752    `
+/207            0           0     0     644     196952    `
+/232            0           0     0     644     192536    `
+/257            0           0     0     644     201880    `
+/282            0           0     0     644     346008    `
+/317            0           0     0     644     374808    `
+/343            0           0     0     644     306120    `
+/369            0           0     0     644     228696    `
+/394            0           0     0     644     293856    `
+/420            0           0     0     644     455424    `
+/444            0           0     0     644     329312    `
+/468            0           0     0     644     523040    `
+/492            0           0     0     644     348320    `
+/516            0           0     0     644     301816    `

@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.a := echo >/dev/null; rm -f drivers/input/touchscreen/built-in.a; llvm-ar cDPrST drivers/input/touchscreen/built-in.a drivers/input/touchscreen/of_touchscreen.o drivers/input/touchscreen/atmel_mxt_ts.o drivers/input/touchscreen/gt9xxnew/built-in.a drivers/input/touchscreen/ilitek/built-in.a

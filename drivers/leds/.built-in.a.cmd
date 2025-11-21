@@ -1,0 +1,1 @@
+cmd_drivers/leds/built-in.a := echo >/dev/null; rm -f drivers/leds/built-in.a; llvm-ar cDPrST drivers/leds/built-in.a drivers/leds/led-core.o drivers/leds/led-class.o drivers/leds/led-class-flash.o drivers/leds/led-triggers.o drivers/leds/leds-gpio.o drivers/leds/leds-rgb13h.o drivers/leds/trigger/built-in.a

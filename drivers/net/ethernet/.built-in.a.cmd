@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/built-in.a := echo >/dev/null; rm -f drivers/net/ethernet/built-in.a; llvm-ar cDPrST drivers/net/ethernet/built-in.a drivers/net/ethernet/google/built-in.a drivers/net/ethernet/realtek/built-in.a drivers/net/ethernet/stmicro/built-in.a drivers/net/ethernet/xilinx/built-in.a drivers/net/ethernet/pensando/built-in.a

@@ -1,0 +1,80 @@
+!<thin>
+//                                              776       `
+dw_hdcp2.o/
+rockchip_drm_drv.o/
+rockchip_drm_fb.o/
+rockchip_drm_gem.o/
+rockchip_drm_logo.o/
+rockchip_drm_vop.o/
+rockchip_vop_reg.o/
+rockchip_drm_vop2.o/
+rockchip_vop2_reg.o/
+rockchip_post_csc.o/
+rockchip_drm_fbdev.o/
+analogix_dp-rockchip.o/
+cdn-dp-core.o/
+cdn-dp-reg.o/
+cdn-dp-link-training.o/
+rockchip_drm_tve.o/
+dw_hdmi-rockchip.o/
+dw-mipi-dsi-rockchip.o/
+dw-mipi-dsi2-rockchip.o/
+dw-dp.o/
+inno_hdmi.o/
+rockchip_lvds.o/
+rockchip_rgb.o/
+rk618/rk618_scaler.o/
+rk618/rk618_vif.o/
+rk618/rk618_dither.o/
+rk618/rk618_lvds.o/
+rk618/rk618_rgb.o/
+rk618/rk618_hdmi.o/
+rk618/rk618_dsi.o/
+rk628/rk628_combrxphy.o/
+rk628/rk628_combtxphy.o/
+rk628/rk628_dsi.o/
+rk628/rk628_gvi.o/
+rk628/rk628_lvds.o/
+rk628/rk628_post_process.o/
+rk628/rk628_rgb.o/
+rk628/rk628_hdmi.o/
+rk628/rk628_hdmirx.o/
+/0              0           0     0     644     190992    `
+/12             0           0     0     644     375088    `
+/32             0           0     0     644     236568    `
+/51             0           0     0     644     274984    `
+/71             0           0     0     644     327840    `
+/92             0           0     0     644     639752    `
+/112            0           0     0     644     192152    `
+/132            0           0     0     644     1061192   `
+/153            0           0     0     644     252672    `
+/174            0           0     0     644     58256     `
+/195            0           0     0     644     221720    `
+/217            0           0     0     644     324144    `
+/241            0           0     0     644     411464    `
+/256            0           0     0     644     409008    `
+/270            0           0     0     644     295304    `
+/294            0           0     0     644     273752    `
+/314            0           0     0     644     449832    `
+/334            0           0     0     644     366672    `
+/358            0           0     0     644     392160    `
+/383            0           0     0     644     551960    `
+/392            0           0     0     644     358240    `
+/405            0           0     0     644     321168    `
+/422            0           0     0     644     348136    `
+/438            0           0     0     644     217552    `
+/460            0           0     0     644     215176    `
+/479            0           0     0     644     9232      `
+/501            0           0     0     644     238096    `
+/521            0           0     0     644     238424    `
+/540            0           0     0     644     365488    `
+/560            0           0     0     644     277544    `
+/579            0           0     0     644     289600    `
+/604            0           0     0     644     256256    `
+/629            0           0     0     644     365632    `
+/648            0           0     0     644     315280    `
+/667            0           0     0     644     300488    `
+/687            0           0     0     644     238456    `
+/715            0           0     0     644     302496    `
+/734            0           0     0     644     361672    `
+/754            0           0     0     644     299584    `

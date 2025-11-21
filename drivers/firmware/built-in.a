@@ -1,0 +1,43 @@
+!<thin>
+//                                              362       `
+rockchip_sip.o/
+arm_scmi/bus.o/
+arm_scmi/driver.o/
+arm_scmi/notify.o/
+arm_scmi/base.o/
+arm_scmi/clock.o/
+arm_scmi/perf.o/
+arm_scmi/power.o/
+arm_scmi/reset.o/
+arm_scmi/sensors.o/
+arm_scmi/system.o/
+arm_scmi/voltage.o/
+arm_scmi/shmem.o/
+arm_scmi/mailbox.o/
+arm_scmi/smc.o/
+arm_scmi/scmi_pm_domain.o/
+psci/psci.o/
+smccc/smccc.o/
+smccc/kvm_guest.o/
+smccc/soc_id.o/
+
+/0              0           0     0     644     200008    `
+/16             0           0     0     644     158216    `
+/32             0           0     0     644     316824    `
+/51             0           0     0     644     206032    `
+/70             0           0     0     644     146528    `
+/87             0           0     0     644     153008    `
+/105            0           0     0     644     181336    `
+/122            0           0     0     644     146640    `
+/140            0           0     0     644     148672    `
+/158            0           0     0     644     166800    `
+/178            0           0     0     644     137912    `
+/197            0           0     0     644     149928    `
+/217            0           0     0     644     15576     `
+/235            0           0     0     644     147496    `
+/255            0           0     0     644     160832    `
+/271            0           0     0     644     151168    `
+/298            0           0     0     644     239936    `
+/311            0           0     0     644     9408      `
+/326            0           0     0     644     11976     `
+/345            0           0     0     644     125744    `

@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/built-in.a := echo >/dev/null; rm -f drivers/input/tablet/built-in.a; llvm-ar cDPrST drivers/input/tablet/built-in.a drivers/input/tablet/acecad.o drivers/input/tablet/aiptek.o drivers/input/tablet/gtco.o drivers/input/tablet/hanwang.o drivers/input/tablet/kbtab.o

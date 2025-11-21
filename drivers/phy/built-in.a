@@ -1,0 +1,44 @@
+!<thin>
+//                                              700       `
+phy-core.o/
+phy-core-mipi-dphy.o/
+rockchip/phy-rockchip-csi2-dphy-hw.o/
+rockchip/phy-rockchip-csi2-dphy.o/
+rockchip/phy-rockchip-dp.o/
+rockchip/phy-rockchip-emmc.o/
+rockchip/phy-rockchip-inno-dsidphy.o/
+rockchip/phy-rockchip-inno-hdmi-phy.o/
+rockchip/phy-rockchip-inno-usb2.o/
+rockchip/phy-rockchip-inno-usb3.o/
+rockchip/phy-rockchip-mipi-rx.o/
+rockchip/phy-rockchip-naneng-combphy.o/
+rockchip/phy-rockchip-naneng-edp.o/
+rockchip/phy-rockchip-pcie.o/
+rockchip/phy-rockchip-samsung-dcphy.o/
+rockchip/phy-rockchip-samsung-hdptx.o/
+rockchip/phy-rockchip-samsung-hdptx-hdmi.o/
+rockchip/phy-rockchip-snps-pcie3.o/
+rockchip/phy-rockchip-typec.o/
+rockchip/phy-rockchip-usb.o/
+rockchip/phy-rockchip-usbdp.o/
+/0              0           0     0     644     305720    `
+/12             0           0     0     644     11384     `
+/34             0           0     0     644     273688    `
+/72             0           0     0     644     325064    `
+/107            0           0     0     644     216648    `
+/135            0           0     0     644     223776    `
+/165            0           0     0     644     278392    `
+/203            0           0     0     644     315008    `
+/242            0           0     0     644     427096    `
+/277            0           0     0     644     296600    `
+/312            0           0     0     644     282128    `
+/345            0           0     0     644     299376    `
+/385            0           0     0     644     226688    `
+/421            0           0     0     644     228704    `
+/451            0           0     0     644     356320    `
+/490            0           0     0     644     266480    `
+/529            0           0     0     644     345424    `
+/573            0           0     0     644     244160    `
+/609            0           0     0     644     295400    `
+/640            0           0     0     644     276976    `
+/669            0           0     0     644     298744    `

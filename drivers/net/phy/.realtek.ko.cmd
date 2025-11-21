@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/realtek.ko := ld.lld -r -EL  -maarch64elf -z norelro -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/realtek.ko drivers/net/phy/realtek.o drivers/net/phy/realtek.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/net/phy/realtek.ko
