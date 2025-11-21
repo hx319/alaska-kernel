@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="uvc_orientation_entries">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+
+    <string-array name="lcd_rotation_entries">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+
+    <string name="full_screen_title">Full Screen Display</string>
+    <string name="full_screen_summary">Hide StatusBar and NavigationBar</string>
+    <string name="dis_app_rotation_title">Lock App Rotation(Need Reboot)</string>
+    <string name="dis_app_rotation_summary">Disable App Set Rotation</string>
+    <string name="dis_uvc_rotation_title">USB camera preview direction(Need Reboot)</string>
+    <string name="dis_lcd_rotation_title">Primary Display Orientation(Need Reboot)</string>
+    <string name="tp_rotation_title">Touch Panel Orientation(Need Reboot)</string>
+
+    <string name="timed_power">Timed power on/off</string>
+    <string name="timed_poweroff">Scheduled poweroff</string>
+    <string name="timed_poweron">Scheduled poweron</string>
+    <string name="timed_poweroff_time">Scheduled poweroff time</string>
+    <string name="timed_poweron_time">Scheduled poweron time</string>
+
+    <string-array name="net_priority_entries">
+        <item>System Default</item>
+        <item>Ethernet > WIFI     > Mobile</item>
+        <item>Mobile   > WIFI     > Ethernet</item>
+        <item>WIFI     > Mobile   > Ethernet</item>
+        <item>Mobile   > Ethernet > WIFI</item>
+        <item>WIFI     > Ethernet > Mobile</item>
+        <item>Ethernet > Mobile   > WIFI</item>
+    </string-array>
+
+    <string-array name="net_priority_entries_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="net_priority_title">Network Priority(Need Reboot)</string>
+
+    <string name="only_launcher_switch">Set as a unique Launcher APP(Need Reboot)</string>
+    <string name="only_launcher_switch_summary">Suitable for situations where APK source code cannot be modified</string>
+
+    <string name="show_volume_button_title">Show Volume Button in the statusbar</string>
+    <string name="show_power_button_title">Show Power Button in the statusbar</string>
+    <string name="show_rotate_button_title">Show Rotate Button in the statusbar</string>
+    <string name="show_rotate_button_summary">Dynamically rotate the screen, restart without saving</string>
+</resources>

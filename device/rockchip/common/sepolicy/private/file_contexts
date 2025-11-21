@@ -1,0 +1,12 @@
+# file in /system
+/system/bin/move_widevine_data\.sh              u:object_r:move-widevine-data-sh_exec:s0
+
+# All Rockchip configs
+/data/misc/cfg_rockchip(/.*)?                   u:object_r:rockchip_config_data_file:s0
+
+/system/bin/dtb_update      u:object_r:dtbupdate_exec:s0
+/system/bin/eGTouchD        u:object_r:eGTouchD_exec:s0
+/system/bin/egtouch.sh      u:object_r:egtouch_exec:s0
+/data/eGalax(/.*)?          u:object_r:eGTouchD_data_file:s0
+/system/bin/ethernet.sh     u:object_r:ethernet_exec:s0
+/system/bin/sleep_wakeup    u:object_r:sleepwakeup_exec:s0

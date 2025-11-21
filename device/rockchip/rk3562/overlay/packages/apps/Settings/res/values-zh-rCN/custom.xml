@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="full_screen_title">全屏显示</string>
+    <string name="full_screen_summary">隐藏状态栏和导航栏</string>
+    <string name="dis_app_rotation_title">锁定应用显示方向(重启生效)</string>
+    <string name="dis_app_rotation_summary">禁止应用程序改变显示方向</string>
+    <string name="dis_uvc_rotation_title">USB摄像头预览方向(重启生效)</string>
+    <string name="dis_lcd_rotation_title">主屏幕方向(显示屏和触摸屏同时旋转，重启生效)</string>
+    <string name="tp_rotation_title">仅触摸屏方向(触摸屏和显示屏方向不一致时使用，重启生效)</string>
+
+    <string name="timed_power">定时开关机</string>
+    <string name="timed_poweroff">定时关机</string>
+    <string name="timed_poweron">定时开机</string>
+    <string name="timed_poweroff_time">定时关机时间</string>
+    <string name="timed_poweron_time">定时开机时间</string>
+
+    <string-array name="net_priority_entries">
+        <item>系统默认</item>
+        <item>以太网   > 无线网络 > 移动数据</item>
+        <item>移动数据 > 无线网络 > 以太网</item>
+        <item>无线网络 > 移动数据 > 以太网</item>
+        <item>移动数据 > 以太网   > 无线网络</item>
+        <item>无线网络 > 以太网   > 移动数据</item>
+        <item>以太网   > 移动数据 > 无线网络</item>
+    </string-array>
+
+    <string name="net_priority_title">网络优先级(重启生效)</string>
+
+    <string name="only_launcher_switch">设置为唯一桌面程序(重启生效)</string>
+    <string name="only_launcher_switch_summary">适用于无法修改APK源码的情形，开机后自动启动，无法再进入原生桌面</string>
+
+    <string name="show_volume_button_title">在状态栏上显示音量按钮(重启生效)</string>
+    <string name="show_power_button_title">在状态栏上显示电源按钮(重启生效)</string>
+    <string name="show_rotate_button_title">在状态栏上显示动态旋转按钮(重启生效)</string>
+    <string name="show_rotate_button_summary">动态旋转屏幕，旋转状态重启不保存</string>
+</resources>
+

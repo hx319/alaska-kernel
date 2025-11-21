@@ -1,0 +1,55 @@
+type egtouch, domain, coredomain, mlstrustedsubject;
+type egtouch_exec, exec_type, system_file_type, file_type;
+type egtouch_data_file, file_type, data_file_type, core_data_file_type;
+
+typeattribute egtouch socket_between_core_and_vendor_violators;
+
+init_daemon_domain(egtouch)
+
+allow egtouch proc_meminfo:file { open read getattr };
+allow egtouch rootfs:file { open read getattr };
+allow egtouch sysfs:file { getattr };
+allow egtouch sysfs:dir { open read getattr };
+allow egtouch rootfs:lnk_file getattr;
+allow egtouch property_socket:sock_file write;
+allow egtouch dalvik_prop:property_service set;
+allow egtouch config_prop:property_service set;
+allow egtouch overlay_prop:property_service set;
+allow egtouch overlay_prop:file { getattr open read };
+allow egtouch shell_exec:file { execute execute_no_trans getattr open read };
+allow egtouch kernel:system module_request;
+allow egtouch self:netlink_kobject_uevent_socket { bind create read setopt };
+allow egtouch self:capability { sys_nice net_raw net_admin sys_module};
+allow egtouch self:tcp_socket { create read connect getopt write };
+allow egtouch wifi_data_file:file getattr;
+allow egtouch init:unix_stream_socket connectto;
+allow egtouch vendor_file:system module_load;
+allow egtouch vendor_data_file:file { write read};
+allow egtouch device:dir { write add_name remove_name };
+allow egtouch device:lnk_file { create unlink };
+allow egtouch devpts:chr_file setattr;
+allow egtouch socket_device:dir { write add_name remove_name };
+allow egtouch socket_device:sock_file { create setattr unlink };
+allow egtouch sysfs_bluetooth_writable:dir { read open search };
+allow egtouch sysfs_bluetooth_writable:file rw_file_perms;
+allow egtouch sysfs_bluetooth_writable:lnk_file rw_file_perms;
+allow egtouch sysfs_devices_block:dir { search read open };
+allow egtouch sysfs_devices_block:file { open  read getattr };
+allow egtouch port:tcp_socket name_connect;
+allow egtouch dnsproxyd_socket:sock_file write;
+allow egtouch hci_attach_dev:chr_file { open read write ioctl };
+allow egtouch netd:unix_stream_socket connectto;
+allow egtouch toolbox_exec:file { execute execute_no_trans getattr open read };
+allow egtouch egtouch_data_file:dir { setattr write add_name search };
+allow egtouch egtouch_data_file:file { setattr open read getattr append create write };
+allow egtouch audioserver:binder { call transfer };
+allow egtouch audioserver_service:service_manager find;
+allow egtouch mediametrics:binder call;
+allow egtouch mediametrics_service:service_manager find;
+allow egtouch servicemanager:binder call;
+allow egtouch proc_bluetooth_writable:dir { open read search };
+allow egtouch proc_bluetooth_writable:file { open read write };
+allow egtouch audio_device:dir { read open search };
+allow egtouch audio_device:chr_file { ioctl open read write };
+allow egtouch fwmarkd_socket:sock_file write;
+

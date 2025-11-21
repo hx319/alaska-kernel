@@ -1,0 +1,66 @@
+cc_prebuilt_library_shared {
+    name: "libril",
+    compile_multilib: "both",
+    multilib: {
+        lib64: {
+            srcs: ["lib64/libril.so"],
+        },
+        lib32: {
+            srcs: ["lib32/libril.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    shared_libs: [
+        "liblog",
+        "libutils",
+        "libcutils",
+        "libhardware_legacy",
+        "librilutils",
+        "libhidlbase",
+        "android.hardware.radio@1.0",
+        "android.hardware.radio@1.1",
+        "android.hardware.radio@1.2",
+        "android.hardware.radio@1.3",
+        "android.hardware.radio@1.4",
+        "android.hardware.radio@1.5",
+    ],
+    check_elf_files: false,
+    vendor: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libquectel-ril",
+    compile_multilib: "both",
+    multilib: {
+        lib64: {
+            srcs: ["lib64/libquectel-ril.so"],
+        },
+        lib32: {
+            srcs: ["lib32/libquectel-ril.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    shared_libs: [
+        "libcutils",
+        "libutils",
+        "libril",
+        "libnetutils",
+        "liblog",
+        "libhidlbase",
+        "android.hardware.secure_element@1.0",
+        "android.hardware.secure_element@1.1",
+        "android.hardware.secure_element@1.2",
+        "android.hardware.radio.config@1.0",
+        "android.hardware.radio@1.0",
+        "android.hardware.radio@1.1",
+        "android.hardware.radio@1.2",
+        "android.hardware.radio.config@1.1",
+        "android.hardware.radio.config@1.2",
+    ],
+    check_elf_files: false,
+    vendor: true,
+}

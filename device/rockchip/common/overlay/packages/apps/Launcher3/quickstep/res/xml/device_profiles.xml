@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<profiles xmlns:launcher="http://schemas.android.com/apk/res-auto" >
+
+    <grid-option
+        launcher:name="5_by_6"
+        launcher:numRows="5"
+        launcher:numColumns="6"
+        launcher:numFolderRows="4"
+        launcher:numFolderColumns="5"
+        launcher:numHotseatIcons="7"
+        launcher:numAllAppsColumns="6"
+        launcher:dbFile="launcher_5_by_6.db"
+        launcher:defaultLayoutId="@xml/default_workspace_5x6"
+        launcher:deviceCategory="phone|multi_display" >
+
+        <display-option
+            launcher:name="7 inch Device"
+            launcher:minWidthDps="600"
+            launcher:minHeightDps="1024"
+            launcher:iconImageSize="64"
+            launcher:iconTextSize="14.4"
+            launcher:allAppsBorderSpace="16"
+            launcher:allAppsCellHeight="104"
+            launcher:hotseatQsbSpace="40"
+            launcher:canBeDefault="true" />
+
+        <display-option
+            launcher:name="5 inch Device"
+            launcher:minWidthDps="480"
+            launcher:minHeightDps="800"
+            launcher:iconImageSize="40"
+            launcher:iconTextSize="12.0"
+            launcher:allAppsBorderSpace="16"
+            launcher:allAppsCellHeight="104"
+            launcher:hotseatQsbSpace="40"
+            launcher:canBeDefault="true" />
+
+    </grid-option>
+
+</profiles>

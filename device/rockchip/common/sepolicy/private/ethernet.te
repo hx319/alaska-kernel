@@ -1,0 +1,84 @@
+type ethernet, domain, coredomain, mlstrustedsubject;
+type ethernet_exec, exec_type, system_file_type, file_type;
+type ethernet_data_file, file_type, data_file_type, core_data_file_type, mlstrustedobject;
+
+typeattribute ethernet socket_between_core_and_vendor_violators;
+
+set_prop(ethernet, system_prop)
+init_daemon_domain(ethernet)
+
+allow ethernet proc_meminfo:file { open read getattr };
+allow ethernet rootfs:file { open read getattr };
+allow ethernet rootfs:lnk_file getattr;
+allow ethernet property_socket:sock_file write;
+allow ethernet dalvik_prop:property_service set;
+allow ethernet config_prop:property_service set;
+allow ethernet overlay_prop:property_service set;
+allow ethernet overlay_prop:file { getattr open read };
+allow ethernet kernel:system module_request;
+allow ethernet self:netlink_kobject_uevent_socket { bind create read setopt };
+allow ethernet self:capability { sys_nice net_raw net_admin sys_module};
+allow ethernet self:tcp_socket { create read connect getopt write };
+allow ethernet wifi_data_file:file getattr;
+allow ethernet init:unix_stream_socket connectto;
+allow ethernet vendor_file:system module_load;
+allow ethernet vendor_data_file:file { write read};
+allow ethernet device:lnk_file { create unlink };
+allow ethernet devpts:chr_file setattr;
+allow ethernet socket_device:dir { write add_name remove_name };
+allow ethernet socket_device:sock_file { create setattr unlink };
+allow ethernet sysfs_bluetooth_writable:dir { read open search };
+allow ethernet sysfs_bluetooth_writable:file rw_file_perms;
+allow ethernet sysfs_bluetooth_writable:lnk_file rw_file_perms;
+allow ethernet sysfs_devices_block:dir { search read open };
+allow ethernet sysfs_devices_block:file { open  read getattr };
+allow ethernet port:tcp_socket name_connect;
+allow ethernet dnsproxyd_socket:sock_file write;
+allow ethernet hci_attach_dev:chr_file { open read write ioctl };
+allow ethernet netd:unix_stream_socket connectto;
+allow ethernet audioserver:binder { call transfer };
+allow ethernet audioserver_service:service_manager find;
+allow ethernet mediametrics:binder call;
+allow ethernet mediametrics_service:service_manager find;
+allow ethernet servicemanager:binder call;
+allow ethernet proc_bluetooth_writable:dir { open read search };
+allow ethernet proc_bluetooth_writable:file { open read write };
+allow ethernet audio_device:dir { read open search };
+allow ethernet audio_device:chr_file { ioctl open read write };
+allow ethernet fwmarkd_socket:sock_file write;
+allow ethernet shell_exec:file { read open execute execute_no_trans getattr map };
+allow ethernet system_data_file:dir { write read open add_name remove_name setattr getattr create search };
+# allow ethernet system_data_file:file { read open ioctl write unlink getattr setattr create append };
+allow ethernet system_data_file:file { read open ioctl getattr };
+allow ethernet system_data_file:fifo_file { read open ioctl write unlink getattr setattr create };
+allow ethernet ethernet_data_file:dir { write read open add_name remove_name setattr getattr create search };
+allow ethernet ethernet_data_file:file { read open ioctl write unlink getattr setattr create unlink append };
+allow ethernet ethernet_data_file:fifo_file { read open ioctl write unlink getattr setattr create };
+allow ethernet toolbox_exec:file { read open execute execute_no_trans getattr map };
+# allow ethernet proc:file { write read open getattr };
+allow ethernet proc:file { getattr };
+allow ethernet sysfs:dir { read open search getattr };
+# allow ethernet sysfs:file { write read open getattr };
+allow ethernet sysfs:file { getattr };
+# allow ethernet device:chr_file { open read write ioctl getattr };
+allow ethernet device:chr_file { ioctl getattr };
+allow ethernet device:dir { open read write ioctl getattr add_name remove_name };
+allow ethernet uhid_device:chr_file { open read write ioctl getattr };
+allow ethernet input_device:dir { open read search };
+allow ethernet input_device:chr_file { getattr setattr };
+# allow ethernet ethernet:capability { sys_boot dac_override dac_read_search fowner fsetid };
+allow ethernet ethernet:capability { sys_boot fowner fsetid };
+allow ethernet system_file:file { read open execute execute_no_trans getattr };
+allow ethernet ethernet:capability { kill };
+allow ethernet properties_device:dir { read open map };
+allow ethernet properties_device:file { read open map };
+allow ethernet proc_stat:file { read open getattr };
+allow ethernet proc_version:file { write read open getattr };
+allow ethernet serial_device:chr_file { write read open getattr ioctl };
+allow ethernet proc_modules:file { write read open getattr };
+
+###For EETI APK TOOL###
+allow untrusted_app ethernet_data_file:fifo_file { open read write };
+allow untrusted_app ethernet_data_file:dir { open read write search };
+allow untrusted_app_27 ethernet_data_file:fifo_file { open read write };
+allow untrusted_app_27 ethernet_data_file:dir { open read write search };
